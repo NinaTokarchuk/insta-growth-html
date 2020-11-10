@@ -1,3 +1,5 @@
+
+
 h1, h2, h3, p {
     margin: 0;
     padding: 0;
@@ -5,6 +7,53 @@ h1, h2, h3, p {
 
 
 header nav .logo img {
+    display: flex;
+    justify-content: flex-start;
     width: 200px;
     padding: 30px 100px 30px 10px;
+}
+
+header nav .menu-items a {
+    display: flex;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    color: #1D1F2A;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.menu-items a:hover { 
+    border-color: aqua;
+}
+
+@media (min-width: 769px) {
+    header nav {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    header nav .total-menu {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    header nav .menu-items {
+        display: flex;
+        
+    }
+    header nav .social-media-bar {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}
+
+.social-media-button {
+    color: white;
+    border: none;
+    width: 28px;
+    height: 28px;
+    background-color: #7648f8;
+    border-radius: 7px;
+    margin: 5px;
 }
