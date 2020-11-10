@@ -1,16 +1,21 @@
-
-
 h1, h2, h3, p {
     margin: 0;
     padding: 0;
 }
 
+:root {
+    scroll-behavior: smooth;
+    max-width: 980px;
+}
+
+body {
+    max-width: 980px;
+    margin: auto;
+}
 
 header nav .logo img {
-    display: flex;
-    justify-content: flex-start;
     width: 200px;
-    padding: 30px 100px 30px 10px;
+    padding: 30px 200px 30px 5px;
 }
 
 header nav .menu-items a {
@@ -23,9 +28,8 @@ header nav .menu-items a {
 }
 
 .menu-items a:hover { 
-    border-color: aqua;
+    color: #7648f8;
 }
-
 @media (min-width: 769px) {
     header nav {
         display: flex;
@@ -48,6 +52,9 @@ header nav .menu-items a {
     }
 }
 
+.social-media-bar {
+    padding: 10px;
+}
 .social-media-button {
     color: white;
     border: none;
@@ -56,4 +63,17 @@ header nav .menu-items a {
     background-color: #7648f8;
     border-radius: 7px;
     margin: 5px;
+}
+
+.banner {
+    background-image: url(../img/background-banner.png);
+    background-size: cover;
+    min-height: 800px;
+}
+.banner h1 {
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 25px;
+    font-weight: bold;
+    font-size: 45px;
 }
