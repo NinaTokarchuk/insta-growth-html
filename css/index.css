@@ -96,9 +96,7 @@ header nav .menu-items a {
     background-color: white;
     margin: 15px;
 }
-.baner form:hover {
-    background-color: orange;
-}
+
 .banner .banner-button2 {
     border-color: orange;
     color: white;
