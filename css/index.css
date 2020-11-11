@@ -77,3 +77,12 @@ header nav .menu-items a {
     font-weight: bold;
     font-size: 45px;
 }
+
+.banner p {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+
+.banner .banner-buttons {
+    display: flex;
+}
