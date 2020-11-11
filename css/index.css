@@ -78,14 +78,22 @@ header nav .menu-items a {
     font-weight: bold;
     font-size: 45px;
 }
+<<<<<<< HEAD
 .banner p {
     color: white;
     font-family: 'Rubik', sans-serif;
     padding: 25px;
+=======
+
+.banner p {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+>>>>>>> b66a8bf7f14da662b17adab70fbe86c5316444db
 }
 
 .banner .banner-buttons {
     display: flex;
+<<<<<<< HEAD
     padding-left: 40px;
 }
 
@@ -103,4 +111,6 @@ header nav .menu-items a {
     border-radius: 3px;
     background-color: transparent;
      margin: 15px;
+=======
+>>>>>>> b66a8bf7f14da662b17adab70fbe86c5316444db
 }
