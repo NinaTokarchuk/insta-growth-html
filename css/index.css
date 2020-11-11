@@ -6,6 +6,7 @@ h1, h2, h3, p {
 :root {
     scroll-behavior: smooth;
     max-width: 980px;
+    margin: auto;
 }
 
 body {
@@ -76,4 +77,32 @@ header nav .menu-items a {
     padding: 25px;
     font-weight: bold;
     font-size: 45px;
+}
+.banner p {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    padding: 25px;
+}
+
+.banner .banner-buttons {
+    display: flex;
+    padding-left: 40px;
+}
+
+.banner .banner-button1 {
+    border: none;
+    border-radius: 3px;
+    color: #4D5162;
+    background-color: white;
+    margin: 15px;
+}
+.baner form:hover {
+    background-color: orange;
+}
+.banner .banner-button2 {
+    border-color: orange;
+    color: white;
+    border-radius: 3px;
+    background-color: transparent;
+     margin: 15px;
 }
