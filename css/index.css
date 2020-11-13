@@ -162,7 +162,7 @@ header nav .menu-items a {
     text-align: center;
     font-family: 'Rubik', sans-serif;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 500;
     color: #5f6162;
     line-height: 1.6;
 }
@@ -171,4 +171,43 @@ header nav .menu-items a {
     width: 70px;
     height: 70px;
     padding-bottom: 20px;
+}
+
+.unit {
+    display: flex;
+    justify-content: center;
+    color: #5F6162;
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    min-width: 320px;
+    letter-spacing: .1em;
+}
+
+#how-it-works h3 {
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#how-it-works p {
+    color: #5F6162;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.list-plus-image {
+    display: flex;
+    justify-content: space-between;
+}
+
+#how-it-works img {
+    padding-top: 100px;
+    width: 500px;
+    height: 500px;
+    padding-left: 0;
 }
