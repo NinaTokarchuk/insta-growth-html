@@ -91,16 +91,23 @@ header nav .menu-items a {
 
 .banner .banner-button1 {
     border: none;
-    border-radius: 3px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: transparent;
     color: #4D5162;
     background-color: white;
     margin: 15px;
+    width: 50x;
+    height: 40px;
 }
 
 .banner .banner-button2 {
     border-color: orange;
     color: white;
-    border-radius: 3px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
     background-color: transparent;
      margin: 15px;
 }
