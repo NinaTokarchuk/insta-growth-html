@@ -131,3 +131,44 @@ header nav .menu-items a {
     background-color: #f7b30b;
     cursor: pointer;
 }
+
+.processing-block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 500px;
+}
+
+.processing-block .process-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+
+.processing-block .process-card h3 {
+    color: #7648f8!important;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    padding-bottom: 25px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.processing-block .process-card p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #5f6162;
+    line-height: 1.6;
+}
+
+.process-card-img {
+    width: 70px;
+    height: 70px;
+    padding-bottom: 20px;
+}
