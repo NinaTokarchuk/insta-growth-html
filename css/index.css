@@ -178,10 +178,10 @@ header nav .menu-items a {
     justify-content: center;
     color: #5F6162;
     font-family: 'Rubik', sans-serif;
-    font-size: 12px;
-    font-weight: bold;
+    font-size: 13px;
     min-width: 320px;
     letter-spacing: .1em;
+    font-weight: bold;
 }
 
 #how-it-works h3 {
@@ -189,6 +189,15 @@ header nav .menu-items a {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 48px;
     font-weight: 900;
+    margin-bottom: 0;
+}
+
+.devider-dash {
+    color: #7648f8!important;
+    font-weight: bold;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 #how-it-works p {
@@ -206,8 +215,33 @@ header nav .menu-items a {
 }
 
 #how-it-works img {
-    padding-top: 100px;
-    width: 500px;
-    height: 500px;
-    padding-left: 0;
+    width: 100%;
+}
+
+#how-it-works .how-it-works-image {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.how-it-works-list {
+    list-style-type: none;
+}
+
+.how-it-works-list .dash {
+    color: #7648f8!important;
+}
+
+.how-it-works-list h4 {
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif; 
+    margin-bottom: 0;
+}
+
+.how-it-works-list p {
+    color: #5F6162;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    display: inline;
+    margin: 5px;
 }
